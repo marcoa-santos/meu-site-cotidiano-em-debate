@@ -1,0 +1,35 @@
+INSTRUÇÕES PARA DEPLOY NO INFINITYFREE
+====================================
+
+DADOS DE ACESSO:
+- cPanel: https://cpanel.infinityfree.com
+- Username: if0_39560925
+- Senha: 36gqRpSlgSP
+- Domínio: cotidianoemdebate.page.gd
+
+PASSOS PARA UPLOAD:
+
+1. Faça login no cPanel
+2. Abra o "File Manager" 
+3. Navegue até htdocs/
+4. Faça upload de TODOS os arquivos desta pasta
+5. Aguarde o processamento
+6. Acesse: https://cotidianoemdebate.page.gd
+
+CONFIGURAÇÕES SSL:
+1. No cPanel, vá em "SSL/TLS"
+2. Ative "Force HTTPS Redirect" 
+3. Instale certificado SSL gratuito
+
+TESTES APÓS DEPLOY:
+- ✅ Homepage carregando
+- ✅ Menu de navegação funcionando
+- ✅ Produtos listando (via API externa)
+- ✅ Notícias exibindo
+- ✅ Login administrativo funcionando
+- ✅ SSL ativo (https://)
+
+PROBLEMAS COMUNS:
+- Erro 404: Verifique se o .htaccess foi uploadado
+- Erro de API: Verifique conectividade com backend
+- SSL: Aguarde até 24h para ativação completa
